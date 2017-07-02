@@ -1,0 +1,13 @@
+# incorrect data, where P1 makes it impossible to pick a correct P2
+PLAYER1="HUMAN"
+PLAYER2="HUMAN"
+N=15
+K=1
+S=0
+P1=8,8
+export GUI_ERROR_CODE=0
+TIMEOUT=4
+MINIMUM_DURATION=0
+EXPECTED_GAME_ERROR_CODE=1
+NO_GUI_ARGS_CHECK=1
+NO_DIFF_CHECK=1

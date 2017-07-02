@@ -1,0 +1,14 @@
+Zadanie polega na napisaniu skryptu game.sh który :
+1) Ustawi plansze na podany rozmiar (rozmiar oznacza ilość pół wzdłóż boku planszy). Zakładamy że rozmiar musi być >= 9.
+2) Ustawi maksymalną liczbę tur
+3) Ustawi czas tury w sekundach
+4) Ustawi pozycje graczy:
+  Po flagach -p1 i -p2 muszą wystąpić dwie liczby oznaczające początkowe pozycje danych graczy.
+  Nie pojawienie się którejś z tych flag powoduje wylosowanie pozycji dla gracza którego flaga nie pojawiła się.
+5) Ustawienie sztucznej inteligencji
+  Jeśli wystąpi -ai1 oznacza to że gracz pierwszy jest sztuczną inteligencją, jeśli -ai2 to analogicznie gracz drugi będzie sztuczną inteligencją.
+6) Następnie uruchamia grę.
+  Jeśli nie zostało podane ani ai1, ani ai2 to uruchamiana jest gra człowiek na człowieka poprzez ./sredniowiecze_gui_with_libs.sh -human1 -human2 <&3 >&4 &
+  Jeśli tylko jedno z nich zostało podane to uruchamiana jest gracz człowiek na ai.
+  W przeciwnym przypadku uruchamiana jest gra ai na ai.
+7) Dane pomiędzy graczami są przesyłane za pomocą pipe'ów. Dzięki temu każdy gracz wie jak wygląda mapa po ruchu przeciwnika.

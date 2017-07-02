@@ -1,0 +1,14 @@
+# ai vs ai, long game with draw after king-king fight, -k 10000
+PLAYER1="MOCK"
+PLAYER2="MOCK"
+N=9
+K=10000
+S=0
+P1=6,1
+P2=2,9
+TIMEOUT=90
+MINIMUM_DURATION=0
+EXPECTED_GAME_ERROR_CODE=0
+export GUI_ERROR_CODE=0
+export AI1_ERROR_CODE=1
+export AI2_ERROR_CODE=1

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/engine.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/engine.h
+
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/middle_ages.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+parse.h
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/parse.h
+engine.h
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/engine.h
+
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/parse.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+
+/home/skiline11/Desktop/ipp/sredniowiecze2-do-wyslania/gra/src/parse.h
+
